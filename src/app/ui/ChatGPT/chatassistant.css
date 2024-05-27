@@ -1,0 +1,23 @@
+.response-container {
+    padding: 20px;
+    margin-top: 10px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+  }
+  
+  .response-container p {
+    color: #333;
+  }
+  
+  .response-container h1, .response-container h2, .response-container h3 {
+    color: #555;
+  }
+  
+  .response-container ul {
+    list-style-type: square;
+  }
+  
+  .response-container strong {
+    font-weight: bold;
+  }
+  

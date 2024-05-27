@@ -1,0 +1,306 @@
+/*!
+ * Theme: Default
+ * Package: CopyGen
+ * Version: 1.1
+ * Author: Softnio
+ * Author URI: http://themeforest.net/user/softnio
+**/
+
+/* Default Theme */
+
+#__next {
+  position: relative;
+  overflow: hidden;
+}
+img {
+  height: auto;
+}
+.index-module_type__E-SaG::after {
+  background: linear-gradient(
+    var(--bs-bg-gradient-angle, 319.2deg),
+    RGBA(70, 162, 255, var(--bs-bg-opacity, 1)) 25.45%,
+    RGBA(63, 62, 237, var(--bs-bg-opacity, 1)) 100.14%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 400;
+}
+.dropdown > span {
+  cursor: pointer;
+}
+.dropdown-menu.show {
+  transform: translate3d(-16px, 36px, 0px);
+  position: absolute;
+  inset: 0px 0px auto auto;
+  margin: 0px;
+}
+.is-dark .nk-menu-buttons .dropdown-menu {
+  background: #151e36;
+}
+.is-dark .nk-menu-buttons .dropdown-item:hover {
+  background-color: #f8f9fa0a;
+}
+.is-dark .is-dark .bg-white .form-control-plaintext,
+.is-dark .is-dark .bg-white .form-control {
+  color: #fff;
+}
+.is-light .is-dark .bg-white .form-control-plaintext,
+.is-light .is-dark .bg-white .form-control,
+.is-dark .inline-form-s1.is-light .form-control-plaintext.is-light {
+  color: #293a51;
+}
+.testimonial-slider-2.swiper {
+  padding: 30px;
+  margin: -30px;
+}
+.custom-isotop {
+  column-count: 3;
+  column-gap: 30px;
+  margin-bottom: -30px;
+}
+.custom-isotop > * {
+  margin-bottom: 30px;
+}
+
+.is-dark .blog-post .text-bg-primary-soft {
+  color: #fff;
+}
+.border-opacity-20 {
+  --bs-border-opacity: 0.2;
+}
+.video-carousel {
+  width: calc(100% + 200px);
+  margin-left: -100px;
+}
+.video-carousel .swiper-slide .glightbox {
+  cursor: pointer;
+}
+.video-carousel .swiper-slide-active .glightbox {
+  display: inline-flex !important;
+}
+/* Start Video Popup */
+.cs-pd_video .cs-video_open,
+.cs-sample_img .cs-video_open {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 68px;
+  transition: all 0.3s ease;
+  line-height: 48px;
+}
+
+.cs-pd_video .cs-video_open:hover,
+.cs-sample_img .cs-video_open:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.cs-video_popup {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  left: -100%;
+  transition-delay: 0.3s;
+}
+
+.cs-video_popup.active {
+  left: 0;
+  transition-delay: 0s;
+  left: 0;
+}
+
+.cs-video_popup_overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  background: #000;
+  transition: all 0.4s ease-out;
+  opacity: 0;
+}
+
+.cs-video_popup.active .cs-video_popup_overlay {
+  opacity: 0.8;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.cs-video_popup_content {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  font-size: 0;
+  text-align: center;
+  transition: all 0.4s ease-out;
+  transform: translateY(100px);
+  opacity: 0;
+  visibility: hidden;
+  padding: 62px 15px;
+}
+
+.cs-video_popup.active .cs-video_popup_content {
+  transform: translateY(0);
+  opacity: 1;
+  visibility: visible;
+}
+
+.cs-video_popup_content:after {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.cs-video_popup_container {
+  display: inline-block;
+  position: relative;
+  text-align: left;
+  background: #fff;
+  max-width: 1380px;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.cs-video_popup_container .embed-responsive {
+  width: 100%;
+}
+
+.embed-responsive {
+  position: relative;
+  display: block;
+  height: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100%;
+}
+
+.embed-responsive-16by9::before {
+  display: block;
+  content: '';
+  padding-top: 56.25%;
+}
+
+.embed-responsive iframe,
+.embed-responsive video {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.cs-video_popup_close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  background: #d90d0d;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+}
+
+.cs-video_popup iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.cs-video_popup_close:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 20px;
+  height: 1px;
+  background: #fff;
+  margin-left: -10px;
+  transform: rotate(-45deg);
+  transition: all 0.4s ease-in-out;
+}
+
+.cs-video_popup_close:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 20px;
+  height: 1px;
+  background: #fff;
+  margin-left: -10px;
+  transform: rotate(45deg);
+  transition: all 0.4s ease-in-out;
+}
+
+.cs-video_popup_close:hover:before,
+.cs-video_popup_close:hover:after {
+  background: #000;
+}
+
+.cs-video_popup_layer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.cs-video_popup_align {
+  overflow: hidden;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+/*End Video Popup*/
+.is-light .pricing-featured .bg-gradient-primary {
+  background: linear-gradient(
+    var(--bs-bg-gradient-angle, 267deg),
+    RGBA(0, 240, 255, 0.6) 4.01%,
+    RGBA(82, 0, 255, 0.6) 57.55%,
+    RGBA(255, 45, 247, 0.6) 114.97%
+  );
+}
+
+@media (max-width: 1199px) {
+  .custom-isotop {
+    column-count: 2;
+  }
+}
+@media (max-width: 991px) {
+  .nk-header-menu {
+    transition: 0.4s ease;
+  }
+}
+@media (max-width: 767px) {
+  .custom-isotop {
+    column-count: 1;
+  }
+}
+@media (max-width: 575px) {
+  .section-head br {
+    display: none;
+  }
+  .video-carousel {
+    width: calc(100% + 160px);
+    margin-left: -80px;
+  }
+}
+
+@media (min-width: 992px) {
+  .header-menu-overlay {
+    display: none;
+  }
+}
+
+/* ========================================= 
+  Wright Your Custom Style Here 
+============================================ */
