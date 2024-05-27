@@ -4,15 +4,15 @@ import './css/custom.css';
 export const metadata = {
   title: {
     absolute: '',
-    default: 'CopyGen - AI Writer & Copywriting Landing Page Next.js Template',
+    default: 'AI Automation',
     template:
-      '%s | CopyGen - AI Writer & Copywriting Landing Page Next.js Template',
+      '%s AI Automation',
   },
   description: 'AI Writer & Copywriting Landing Page Next.js Template',
   openGraph: {
-    title: 'CopyGen - AI Writer & Copywriting Landing Page Next.js Template',
+    title: 'AI Automation',
     description:
-      'CopyGen - AI Writer & Copywriting Landing Page Next.js Template',
+      'AI Automation',
     images: ['/openGraphImage.jpeg'],
   },
 };

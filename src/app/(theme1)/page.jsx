@@ -48,7 +48,7 @@ const accordionData = [
 ];
 
 export const metadata = {
-  title: 'Theme 1',
+  title: '',
 };
 
 export default function Home7() {
