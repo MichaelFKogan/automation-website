@@ -8,7 +8,7 @@ import Icon from '../Icon';
 const data = [
   {
     text: "After working as a Software Engineer for the last 8 years,  I've witnessed firsthand how AI and No-Code Automation can transform the way businesses operate. From streamlining workflows to increasing productivity, the combination of these technologies has immense potential to drive innovation and efficiency. My passion lies in leveraging these tools to help businesses automate processes, reduce manual tasks, and focus on growth. In my free time, I enjoy experimenting with new technologies and building my own web apps. I’m always exploring creative ways to solve problems through automation and AI.",
-    avatarImgUrl: '/images/avatar/testimonials/profile.png',
+    avatarImgUrl: '/images/avatar/testimonials/profile.PNG',
     avatarName: 'Mike Kogan',
     avatarDesignation: 'Founder',
   },
