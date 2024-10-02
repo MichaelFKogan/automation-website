@@ -67,9 +67,9 @@ export default function Home7() {
           'Invoice Creation',
           1000,
         ]}
-        subTitle="Streamline your processes, boost productivity, and elevate your bottom line. Discover the power of automation tailored to your business."
-        href="#contact-us"
-        btnText="Get In Touch"
+        subTitle="Streamline your processes, boost productivity, and lower costs. Discover the power of automation for your business."
+        href="https://calendly.com/mikekogan-automation"
+        btnText="Book A Call"
         videoUrl="https://www.youtube.com/embed/SSo_EIwHSd4"
         videoIcon="/images/icon/play.svg"
       />
@@ -120,8 +120,8 @@ export default function Home7() {
         </div>
       </section>
 
-
-      <section id="aichatbot" className="section section-bottom-0 section-lg pt-8">
+    {/* AI CHAT BOT */}
+      {/* <section id="aichatbot" className="section section-bottom-0 section-lg pt-8">
         <div className="container">
           <SectionHeading
                 overlineTitle="ChatGPT Pre-Trained Assistant"
@@ -134,8 +134,8 @@ export default function Home7() {
 
           <ChatAssistant assistantId="asst_27ZcNLI5sjrltjfGTiBs9L3s" />
 
-      </section>
-
+      </section> */}
+    {/* AI CHAT BOT */}
 
 
 {/* 3 COLUMN INFO TABS */}
@@ -258,18 +258,18 @@ export default function Home7() {
 
 
 {/* PRICING */}
-      {/* <section className="section section-bottom-0 section-lg">
+      <section id="pricing" className="section section-bottom-0 section-lg">
         <div className="container">
           <SectionHeading
             overlineTitle="Pricing"
             overlineTitleVariant="text-tertiary"
-            title="Plans that start free and fits with your needs"
-            subTitle="With our simple plans, supercharge your content writing to helps your business. <br>Let’s make great content together."
+            title="Plans that fit your needs"
+            subTitle="With our simple plans that can streamline your business processes. <br>Let’s make great content together."
             containerWidthClass="col-lg-9 col-xl-8 col-xxl-8"
           />
           <PricingSectionStyle2 variant2 />
         </div>
-      </section> */}
+      </section>
 {/* END PRICING */}
 
 
@@ -347,6 +347,14 @@ export default function Home7() {
                     </li> */}
                     <li className="col-12">
                       <CardStyle5
+                        title="Book A Call"
+                        // subTitle="https://calendly.com/mikekogan-automation"
+                        iconClass="call-alt-fill"
+                      />
+                      <a href="https://calendly.com/mikekogan-automation" target="_blank">Calendly</a>
+                    </li>
+                    <li className="col-12">
+                      <CardStyle5
                         title="Email"
                         subTitle="support@copygen.com"
                         iconClass="mail-fill"
@@ -368,7 +376,22 @@ export default function Home7() {
                     <h3 className="title fw-medium mb-4">
                       Please feel free to contact us using form below
                     </h3>
-                    <form className="form-submit-init">
+                    
+                    
+                    <div style={{position: "relative", width: "100%", height: "0", paddingBottom: "150%"}}>
+                      <iframe 
+                        src="https://docs.google.com/forms/d/e/1FAIpQLSd4dFdCNl6oi6Nj-rf4zBkZItXPOLBy63aHirPwoDD03KpXRw/viewform?embedded=true" 
+                        style={{position: "absolute", top: "0", left: "0", width: "100%", height: "100%", border:"0"}}
+                        frameborder="0" 
+                        marginheight="0" 
+                        marginwidth="0">Loading…
+                      </iframe>
+                    </div>
+                    
+                    
+                    
+                    
+                    {/* <form className="form-submit-init">
                       <div className="row g-4">
                         <div className="col-12">
                           <div className="form-group">
@@ -448,7 +471,11 @@ export default function Home7() {
                           <div className="form-result mt-4" />
                         </div>
                       </div>
-                    </form>
+                    </form> */}
+
+
+
+
                   </div>
                 </div>
               </div>

@@ -51,7 +51,7 @@ export default function PricingCardStyle2({
             ) : (
               <h3 className="display-5 mb-3">
                 ${price}{' '}
-                <span className="caption-text text-muted"> / {duration}</span>
+                {/* <span className="caption-text text-muted"> / {duration}</span> */}
               </h3>
             )}
 
@@ -66,9 +66,9 @@ export default function PricingCardStyle2({
             >
               {mainFeature}
             </p>
-            <div className="bg-light px-4 py-2 mb-4 smaller rounded-1">
+            {/* <div className="bg-light px-4 py-2 mb-4 smaller rounded-1">
               {alertMessage}
-            </div>
+            </div> */}
             <div className="px-4">
               <Link
                 href={btnUrl}
@@ -92,14 +92,15 @@ export default function PricingCardStyle2({
               featured ? 'p-md-5 p-xl-0 pt-xl-4 w-md-50 w-xl-100' : ''
             }`}
           >
-            <h5
+            {/* <h5
               className={`${
                 variant2 ? 'fw-medium pt-4 pb-3' : 'fw-medium pb-1'
               }`}
             >
               {featureTitle}
-            </h5>
+            </h5> */}
             <ul className="list gy-3">
+              <strong>Project Examples</strong>
               {featureList?.map((item, index) => (
                 <li key={index}>
                   <Icon

@@ -85,14 +85,19 @@ export default function Header({
                   <span className="nk-menu-text">Use Cases</span>
               </Link>
               </li>
-              <li>
+              {/* <li>
               <Link href="#aichatbot" className="nk-menu-link">
                   <span className="nk-menu-text">AI Chat Bot</span>
               </Link>
-              </li>
+              </li> */}
               <li>
               <Link href="#roadmap" className="nk-menu-link">
                   <span className="nk-menu-text">Roadmap</span>
+              </Link>
+              </li>
+              <li>
+              <Link href="#pricing" className="nk-menu-link">
+                  <span className="nk-menu-text">Pricing</span>
               </Link>
               </li>
               <li>

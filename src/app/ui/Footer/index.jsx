@@ -32,11 +32,11 @@ export default function Footer() {
         <div className="container">
           <div className="row g-5">
             <div className="col-xl-3 col-sm-4 col-6">
-              <MenuWidget
+              {/* <MenuWidget
                 titleClass="overline-title text-heading mb-3"
-                title="Use Case"
-                menuItems={useCaseMenu}
-              />
+                title="Use Cases"
+                // menuItems={useCaseMenu}
+              />Coming Soon...
             </div>
             <div className="col-xl-2 col-sm-4 col-6">
               <MenuWidget
@@ -63,11 +63,11 @@ export default function Footer() {
                 pages & digital ads for your business in seconds. Unleash
                 the most advanced AI writer to boost your traffic and
                 productitvity."
-              />
+              /> */}
               <Copyright
-                copyrightText="© 2023 CopyGenAI. Template Made By"
+                copyrightText="© 2024 CopyGenAI."
                 copyrightLink="https://softnio.com"
-                copyrightLinkText="Softnio"
+                // copyrightLinkText="Softnio"
                 variant="text-heading mt-4"
               />
             </div>

@@ -7,10 +7,10 @@ import Image from 'next/image';
 import Icon from '../Icon';
 const data = [
   {
-    text: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti provident, similique sunt in culpa qui officia deserunt mollitia animi',
-    adatarImgUrl: '/images/avatar/testimonials/md-a.jpg',
-    avatarName: 'Kathleen Smith',
-    avatarDesignation: 'Author, Podcast Host',
+    text: "After working as a Software Engineer for the last 8 years,  I've witnessed firsthand how AI and No-Code Automation can transform the way businesses operate. From streamlining workflows to increasing productivity, the combination of these technologies has immense potential to drive innovation and efficiency. My passion lies in leveraging these tools to help businesses automate processes, reduce manual tasks, and focus on growth. In my free time, I enjoy experimenting with new technologies and building my own web apps. I’m always exploring creative ways to solve problems through automation and AI.",
+    adatarImgUrl: '/images/avatar/testimonials/profile.png',
+    avatarName: 'Mike Kogan',
+    avatarDesignation: 'Founder',
   },
   {
     text: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti provident, similique sunt in culpa qui officia deserunt mollitia animi',
@@ -50,8 +50,8 @@ export default function TestimonialSlider() {
               }}
               className="mySwiper"
             >
-              {data.map((item, index) => (
-                <SwiperSlide key={index}>
+              {data.slice(0, 1).map((item, index) => (
+                // <SwiperSlide key={index}>
                   <div className="row align-items-center gx-4 gx-lg-5 gx-xl-6">
                     <div className="col-md-4 col-sm-6 col-8">
                       <div className="bg-gradient-primary rounded-3 p-2 bg-opacity-30">
@@ -63,10 +63,11 @@ export default function TestimonialSlider() {
                         />
                       </div>
                     </div>
+
                     <div className="col-md-8">
                       <div className="py-md-3 pt-3">
                         <blockquote className="blockquote">
-                          “{item.text}”
+                          {item.text}
                         </blockquote>
                         <div className="block-info pt-lg-4">
                           <h4 className="title">{item.avatarName}</h4>
@@ -77,7 +78,7 @@ export default function TestimonialSlider() {
                       </div>
                     </div>
                   </div>
-                </SwiperSlide>
+                // </SwiperSlide>
               ))}
             </Swiper>
           </div>
