@@ -116,9 +116,11 @@ export default function HeroStyle9({
                 {/* VIDEO */}
                 <div className="py-5">
               <div className="row justify-content-center">
-                <div className="col-xxl-10 responsive-video" style={{position: "relative", overflow: "hidden", maxWidth: "815px", paddingTop: "460px", borderRadius: "12px", boxShadow: "0px 4px 10px 0px rgba(63, 62, 237, 0.75)"}}>
-                  <iframe src="https://www.youtube.com/embed/B_ddkyRQh3c?si=CIItXK7B5DBP-26P" style={{position: "absolute", top: "0", left: "0", bottom: "0", right: "0", width:"100%", height: "100%", border: "none"}} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
-                </div>
+                {/* <div className="col-xxl-10 responsive-video" style={{position: "relative", overflow: "hidden", maxWidth: "815px", paddingTop: "460px", borderRadius: "12px", boxShadow: "0px 4px 10px 0px rgba(63, 62, 237, 0.75)"}}> */}
+                <div className="col-xxl-10 responsive-video" style={{position: "relative", overflow: "hidden", paddingLeft: "0px", paddingRight: "0px", maxWidth: "815px", borderRadius: "12px", boxShadow: "0px 4px 10px 0px rgba(63, 62, 237, 0.75)"}}>
+                  {/* <iframe src="https://www.youtube.com/embed/B_ddkyRQh3c?si=CIItXK7B5DBP-26P" style={{position: "absolute", top: "0", left: "0", bottom: "0", right: "0", width:"100%", height: "100%", border: "none"}} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe> */}
+                  <div style={{position: "relative", paddingBottom: "62.5%", height: "0"}}><iframe src="https://www.loom.com/embed/e5dfe5b22d3048c89d3a903042c2e64a?sid=53cdd22a-2c7f-4a08-86f6-b6ff9bb10d36" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style={{position: "absolute", top: "0", left: "0", width: "100%", height: "100%"}}></iframe></div>
+               </div>
               </div>
             </div>
 
