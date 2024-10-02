@@ -8,13 +8,13 @@ import Icon from '../Icon';
 const data = [
   {
     text: "After working as a Software Engineer for the last 8 years,  I've witnessed firsthand how AI and No-Code Automation can transform the way businesses operate. From streamlining workflows to increasing productivity, the combination of these technologies has immense potential to drive innovation and efficiency. My passion lies in leveraging these tools to help businesses automate processes, reduce manual tasks, and focus on growth. In my free time, I enjoy experimenting with new technologies and building my own web apps. I’m always exploring creative ways to solve problems through automation and AI.",
-    adatarImgUrl: '/images/avatar/testimonials/profile.png',
+    avatarImgUrl: '/images/avatar/testimonials/profile.png',
     avatarName: 'Mike Kogan',
     avatarDesignation: 'Founder',
   },
   {
     text: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti provident, similique sunt in culpa qui officia deserunt mollitia animi',
-    adatarImgUrl: '/images/avatar/testimonials/md-b.jpg',
+    avatarImgUrl: '/images/avatar/testimonials/md-b.jpg',
     avatarName: 'Frances Burns',
     avatarDesignation: 'Writer, Envato Elements',
   },
@@ -56,7 +56,7 @@ export default function TestimonialSlider() {
                     <div className="col-md-4 col-sm-6 col-8">
                       <div className="bg-gradient-primary rounded-3 p-2 bg-opacity-30">
                         <Image
-                          src={item.adatarImgUrl}
+                          src={item.avatarImgUrl}
                           width={540}
                           height={580}
                           alt="Avatar"
